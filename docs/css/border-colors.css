@@ -1,0 +1,21 @@
+* {
+  margin-bottom: 5px;
+}
+
+.red-border {
+  border-style: solid;
+  border-color: red;
+  border-width: 3px 2.75px 2.5px 2.25px;
+}
+
+.green-border {
+  border-style: solid;
+  border-color: green;
+  border-width: 3px 2.75px 2.5px 2.25px;
+}
+
+.blue-border {
+  border-style: dotted;
+  border-color: blue;
+  border-width: 3px 2.75px 2.5px 2.25px;
+}
