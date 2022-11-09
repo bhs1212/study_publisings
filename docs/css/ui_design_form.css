@@ -1,0 +1,21 @@
+.text-align {
+  text-align: center;
+}
+
+.th-style {
+  background-color: rgb(255, 160, 122);
+  color: white;
+}
+
+.td-style {
+  background-color: rgb(255, 254, 223);
+}
+
+.td-width {
+  width: 30px;
+}
+
+.content-length {
+  width: 169px;
+  height: 140px;
+}
