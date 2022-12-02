@@ -11,20 +11,24 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <style>
-      .div-fonts {
-        color: blueviolet;
-      }
-      .div-font-size {
-        font-size: 2rem;
-      }
-    </style>
+    <link rel="stylesheet" href="./css/commons.css" />
   </head>
   <body>
-    <!-- //font : https://getbootstrap.com/docs/5.0/content/typography/ -->
+    <div>Bootstrap Format {property}{sides}-{size}</div>
+    <div class="display-3 text-primary">paddings</div>
+    <div>
+      <span class="p-3"> padding : p, size 3 </span>
+      <span class="pt-4"> top : t </span>
+      <div class="pt-4 pb-4">bottom : b</div>
+      <div class="ps-5 pe-5">start : s, end : e</div>
+    </div>
 
-    <div class="div-fonts div-font-size">start cumtors</div>
-    <div class="text-success display-2 text-center">start bootstarps</div>
+    <div class="display-3 text-primary">margin</div>
+    <div>
+      <div class="m-4">Margin : m</div>
+      <div class="ms-4 mt-4">Margin : ms-4, mt-4</div>
+      <div class="m-auto">Margin : m</div>
+    </div>
     <hr />
     <a href="./index.html">Index Page</a>
     <script
