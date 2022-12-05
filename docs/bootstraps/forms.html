@@ -13,10 +13,67 @@
     />
   </head>
   <body>
-    <div class="fs-2">Forms</div>
-    <div>
-      <label for="" class="form-label">Email</label>
-      <input type="email" name="" id="" class="form-control" />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <label class="form-label mb-2 mt-2" for="">Email</label>
+          <input class="form-control" type="text" name="" id="" />
+        </div>
+        <div class="col">
+          <label class="form-label mb-2 mt-2" for="">Password</label>
+          <input class="form-control" type="text" name="" id="" />
+        </div>
+      </div>
+
+      <div>
+        <label class="form-label mb-2 mt-2" for="">Address</label>
+        <input
+          class="form-control"
+          type="text"
+          name=""
+          id=""
+          placeholder="1234 Main St"
+        />
+      </div>
+      <div>
+        <label class="form-label mb-2 mt-2" for="">Address 2</label>
+        <input
+          class="form-control"
+          type="text"
+          name=""
+          id=""
+          placeholder="Apartment, studio, or floor"
+        />
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <label class="form-label" for="">City</label>
+          <input class="form-control" type="text" name="" id="" />
+        </div>
+        <div class="col">
+          <label class="form-label" for="">State</label>
+          <select class="form-select" name="" id="">
+            <option selected>Choose</option>
+            <option value="S01">Korea</option>
+            <option value="S02">Japan</option>
+            <option value="S03">USA</option>
+          </select>
+        </div>
+        <div class="col">
+          <label class="form-label" for="">Zip</label>
+          <input class="form-control" type="text" name="" id="" />
+        </div>
+      </div>
+
+      <div class="mt-3">
+        <input class="form-check-input" type="checkbox" name="" id="check" />
+        <label class="form-label" for="check">Check me out</label>
+      </div>
+
+      <div class="mt-2">
+        <button class="btn btn-primary">Sign in</button>
+      </div>
     </div>
     <hr />
     <a href="./index.html">Index Page</a>
