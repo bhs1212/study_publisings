@@ -13,25 +13,116 @@
     />
   </head>
   <body>
-    <div class="fs-3">Navigations Bars</div>
-    <div class="container">
-      <nav class="navbar">
+    <div class="fs-3">Navigations Bars basic</div>
+    <nav class="navbar navbar-expand bg-light">
+      <div class="navbar-nav">
+        <a href="" class="nav-link">Home</a>
+        <a href="" class="nav-link">Feature</a>
+        <a href="" class="nav-link">Pricing</a>
+      </div>
+    </nav>
+
+    <div class="fs-3">Navigations Bars with brend</div>
+    <nav class="navbar navbar-expand bg-light">
+      <div class="container">
         <a class="navbar-brand" href="">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
             alt=""
             srcset=""
-            width="30"
+            width="40"
           />
           Brend
         </a>
         <div class="navbar-nav">
-          <a href="" class="">Home</a>
-          <a href="" class="">Feature</a>
-          <a href="" class="">Pricing</a>
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Feature</a>
+          <a href="" class="nav-link">Pricing</a>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+
+    <div class="fs-3">Navigations Bars with color</div>
+    <nav class="navbar navbar-expand bg-primary bg-opacity-50 navbar-primary">
+      <div class="container">
+        <a class="navbar-brand" href="">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            alt=""
+            srcset=""
+            width="40"
+          />
+          Brend
+        </a>
+        <div class="navbar-nav">
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Feature</a>
+          <a href="" class="nav-link">Pricing</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="fs-3">Navigations Bars with dropdown</div>
+    <nav class="navbar navbar-expand bg-primary bg-opacity-50 navbar-primary">
+      <div class="container">
+        <a class="navbar-brand" href="">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            alt=""
+            srcset=""
+            width="40"
+          />
+          Brend
+        </a>
+        <div class="navbar-nav">
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Feature</a>
+          <a href="" class="nav-link">Pricing</a>
+          <div class="dropdown nav-item">
+            <a
+              href="#dropdownID"
+              class="dropdown-toggle nav-link"
+              data-bs-toggle="dropdown"
+              >Dropdown</a
+            >
+            <div id="dropdownID" class="dropdown-menu">
+              <a href="" class="dropdown-item">One Menu</a>
+              <a href="" class="dropdown-item">Two Menu</a>
+              <a href="" class="dropdown-item">Three Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="fs-3">Navigations Bars with collapse</div>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            alt=""
+            srcset=""
+            width="40"
+          />
+          Brend
+        </a>
+        <a href="#collapseId" class="navbar-toggler" data-bs-toggle="collapse"
+          ><span class="navbar-toggler-icon"></span
+        ></a>
+        <div class="collapse navbar-collapse" id="collapseId">
+          <div class="navbar-nav">
+            <a href="" class="nav-link">Home</a>
+            <a href="" class="nav-link">Feature</a>
+            <a href="" class="nav-link">Pricing</a>
+          </div>
+          <div class="d-flex">
+            <a href="" class="btn btn-primary">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <hr />
     <a href="./index.html">Index Page</a>
     <script
